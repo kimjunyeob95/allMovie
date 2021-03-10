@@ -8,7 +8,7 @@ export const homeObjOne = {
   buttonLabel: 'Get Started',
   description: `We help business owners increase their revenue.
   Our team of unique specialist can help you acheive your business goals.`,
-  headline: `Lead Generation Specialist for \n Online Businesses`,
+  headline: `Lead Generation Specialist for \n Online Businesses git  `,
   lightText: true,
   topLine: `Margeting Agency`,
 };
