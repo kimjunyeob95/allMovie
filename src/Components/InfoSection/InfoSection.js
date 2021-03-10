@@ -1,20 +1,44 @@
 import React from 'react';
-import { Container } from '../../@Styles/common';
+import { Link } from 'react-router-dom';
+import { Container, Button } from '../../@Styles/common';
 import {
   InfoSec,
   InfoRow,
   InfoColumn,
   TextWrapper,
+  TopLine,
+  Heading,
+  Subtitle,
 } from './InfoSectionElements';
 
-const InfoSection = ({ lightBg, imgStart }) => {
+const InfoSection = ({
+  primary,
+  lightBg,
+  imgStart,
+  lightTopLine,
+  lightTextDesc,
+  buttonLabel,
+  description,
+  headline,
+  lightText,
+  topLine,
+}) => {
   return (
     <React.Fragment>
       <InfoSec lightBg={lightBg}>
         <Container>
           <InfoRow imgStart={imgStart}>
             <InfoColumn>
-              <TextWrapper>h</TextWrapper>
+              <TextWrapper>
+                <TopLine lightTopLine={lightTopLine}>{topLine}</TopLine>
+                <Heading lightText={lightText}>{headline}</Heading>
+                <Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>
+                <Link to="/sign-up">
+                  <Button big fontBig primary={primary}>
+                    {buttonLabel}
+                  </Button>
+                </Link>
+              </TextWrapper>
             </InfoColumn>
           </InfoRow>
         </Container>
