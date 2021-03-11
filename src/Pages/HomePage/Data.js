@@ -11,4 +11,7 @@ export const homeObjOne = {
   headline: `Lead Generation Specialist for \n Online Businesses git  `,
   lightText: true,
   topLine: `Margeting Agency`,
+  img: require('../../images/home_cinema.svg').default,
+  alt: 'Image',
+  start: '',
 };
