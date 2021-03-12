@@ -14,6 +14,7 @@ import {
 } from './InfoSectionElements';
 
 const InfoSection = ({
+  align,
   primary,
   lightBg,
   imgStart,
@@ -34,7 +35,7 @@ const InfoSection = ({
         <Container>
           <InfoRow imgStart={imgStart}>
             <InfoColumn>
-              <TextWrapper>
+              <TextWrapper align={align}>
                 <TopLine lightTopLine={lightTopLine}>{topLine}</TopLine>
                 <Heading lightText={lightText}>{headline}</Heading>
                 <Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>

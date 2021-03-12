@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Navbar from './Components/Navbar/Navbar';
+import { Navbar, Footer } from './Components/index';
+
 import Home from './Pages/HomePage/Home';
 
 import Login from './Pages/Login/Login';
@@ -21,6 +22,7 @@ class Routes extends React.Component {
           <Route path="/movies/detail/:id" component={MoviesDetail} />
           <Route path="/main" component={Home} />
         </Switch>
+        <Footer />
       </Router>
     );
   }
