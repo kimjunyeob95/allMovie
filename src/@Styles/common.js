@@ -55,11 +55,7 @@ const GlobalStyle = createGlobalStyle`
   :-moz-placeholder{color:#999999;letter-spacing: -0.053rem;}
   select{-webkit-appearance:none;appearance:none;}
 
-  a,
-  a:link,
-  a:visited,
-  a:active,
-  a:hover{color:inherit;}
+ 
   
   @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap");
   body {

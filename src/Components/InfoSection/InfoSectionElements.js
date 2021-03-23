@@ -4,6 +4,10 @@ export const InfoSec = styled.div`
   color: #fff;
   padding: 160px 0;
   background: ${({ lightBg }) => (lightBg ? '#FFF' : '#101522')};
+
+  @media screen and (max-width: 1280px) {
+    padding: 80px 0;
+  }
 `;
 
 export const InfoRow = styled.div`

@@ -17,10 +17,10 @@ class Routes extends React.Component {
         <Navbar />
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route path="/login" component={Login} />
-          <Route path="/movies/" component={Movies} />
-          <Route path="/movies/detail/:id" component={MoviesDetail} />
-          <Route path="/main" component={Home} />
+          <Route path="/login" exact component={Login} />
+          <Route path="/movies/" exact component={Movies} />
+          <Route path="/movies/detail/:id" exact component={MoviesDetail} />
+          <Route path="/main" exact component={Home} />
         </Switch>
         <Footer />
       </Router>
