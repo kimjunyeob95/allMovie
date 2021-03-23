@@ -1,6 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { Navbar, Footer } from './Components/index';
+import Board from './Pages/Board/Board';
+import Contact from './Pages/Contact/Contact';
 
 import Home from './Pages/HomePage/Home';
 
@@ -20,7 +22,8 @@ class Routes extends React.Component {
           <Route path="/login" exact component={Login} />
           <Route path="/movies/" exact component={Movies} />
           <Route path="/movies/detail/:id" exact component={MoviesDetail} />
-          <Route path="/main" exact component={Home} />
+          <Route path="/board" exact component={Board} />
+          <Route path="/contact" exact component={Contact} />
         </Switch>
         <Footer />
       </Router>

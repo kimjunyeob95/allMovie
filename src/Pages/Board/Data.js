@@ -7,8 +7,8 @@ export const homeObjOne = {
   lightTextDesc: true,
   buttonLabel: '로그인',
   description: `리액트로 만든 영화정보 사이트입니다.\nmysql,express를 이용하여 기본적인 CRUD를 개발하였으며,\n unDraw, youtube를 참고하여 페이지를 제작하게 되었습니다.
-  영화 후기를 등록하여 다른사람과 생각을 공유할 수 있고, 
-  다른 영화 정보들을 참고하실 수 있는 웹사이트입니다.`,
+    영화 후기를 등록하여 다른사람과 생각을 공유할 수 있고, 
+    다른 영화 정보들을 참고하실 수 있는 웹사이트입니다.`,
   headline: `방문해주신 이용자분들께\n감사의 말씀을 드립니다.`,
   lightText: true,
   topLine: `making for react`,
@@ -46,7 +46,7 @@ export const homeObjThree = {
   headline: `자유 게시판을 이용하여 \n방문 흔적을 남겨주세요`,
   lightText: true,
   topLine: `FreeBoard`,
-  img: require('../../images/board.svg').default,
+  img: require('../../images/home_cinema.svg').default,
   alt: 'Image',
   start: '',
 };
@@ -63,7 +63,7 @@ export const homeObjFour = {
   headline: `저와 연락을 원하시나요?`,
   lightText: false,
   topLine: `Contact`,
-  img: require('../../images/contact.svg').default,
+  img: require('../../images/home_cinema.svg').default,
   alt: 'Image',
   start: 'true',
 };

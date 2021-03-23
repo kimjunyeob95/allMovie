@@ -59,6 +59,12 @@ const Navbar = () => {
               </NavLinks>
             </NavItem>
             <NavItem>
+              <NavLinks to="/board">
+                <FaFilm />
+                Board
+              </NavLinks>
+            </NavItem>
+            <NavItem>
               <NavLinks to="/contact">
                 <FaMailBulk />
                 Contact

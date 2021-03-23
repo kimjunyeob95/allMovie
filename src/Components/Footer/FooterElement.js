@@ -4,7 +4,7 @@ import { FaMagento } from 'react-icons/fa';
 
 export const FooterContainer = styled.div`
   background-color: #101522;
-  padding: 4rem 0 2rem 0;
+  padding: 4rem 0 4rem 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -71,7 +71,7 @@ export const FooterLinksContainer = styled.div`
   justify-content: center;
 
   @media screen and (max-width: 820px) {
-    padding-top: 32px;
+    padding-top: 0;
   }
 `;
 
@@ -125,7 +125,7 @@ export const SocialMediaWrap = styled.div`
   align-items: center;
   width: 90%;
   max-width: 1000px;
-  margin: 40px auto 0 auto;
+  margin: 0 auto;
 
   @media screen and (max-width: 820px) {
     flex-direction: column;

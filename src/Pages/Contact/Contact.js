@@ -1,0 +1,16 @@
+import React from 'react';
+import { homeObjFour, homeObjOne, homeObjThree, homeObjTwo } from './Data';
+import InfoSection from '../../Components/InfoSection/InfoSection';
+
+const Contact = () => {
+  return (
+    <React.Fragment>
+      <InfoSection {...homeObjOne} />
+      <InfoSection {...homeObjTwo} />
+      <InfoSection {...homeObjThree} />
+      <InfoSection {...homeObjFour} />
+    </React.Fragment>
+  );
+};
+
+export default Contact;

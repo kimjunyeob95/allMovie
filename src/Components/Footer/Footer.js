@@ -32,7 +32,7 @@ import {
 export const Footer = () => {
   return (
     <FooterContainer>
-      <FooterSubscription>
+      {/* <FooterSubscription>
         <FooterSubHeading>
           Join Our exlusive membership to receive the latest news and trends
         </FooterSubHeading>
@@ -41,10 +41,10 @@ export const Footer = () => {
           <FormInput name="email" type="email" placeholder="Your Email" />
           <Button fontBig>Subscribe</Button>
         </Form>
-      </FooterSubscription>
+      </FooterSubscription> */}
       <FooterLinksContainer>
         <FooterLinksWrapper>
-          <FooterlinksItems>
+          {/* <FooterlinksItems>
             <FooterLinkTitle>About Us</FooterLinkTitle>
             <FooterLink to="/login">How it works</FooterLink>
             <FooterLink to="/">Testimonials</FooterLink>
@@ -75,7 +75,7 @@ export const Footer = () => {
             <FooterLink to="/">Careers</FooterLink>
             <FooterLink to="/">Investors</FooterLink>
             <FooterLink to="/">Terms of Service</FooterLink>
-          </FooterlinksItems>
+          </FooterlinksItems> */}
         </FooterLinksWrapper>
       </FooterLinksContainer>
       <SocialMedia>
